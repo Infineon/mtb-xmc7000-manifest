@@ -1,0 +1,112 @@
+<middleware>
+  <middleware>
+    <name>core-make</name>
+    <id>core-make</id>
+    <uri>https://github.com/Infineon/core-make</uri>
+    <desc><![CDATA[
+        Core Make build system provides the make build files and scripts for building and programming ModusToolbox&#8482; applications.
+        Builds can be run either through a command-line interface (CLI) or through ModusToolbox&#8482; Integrated Development Environment (IDE).<br>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/core-make/blob/master/README.md">Core Make build system README.md</a></li>
+          <li><a href="https://github.com/Infineon/core-make/blob/master/RELEASE.md">Core Make build system RELEASE.md</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.0.0 beta2 release</num>
+        <commit>release-v3.0.0-Beta2</commit>
+        <desc>3.0.0 beta2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>cat1cm0p</name>
+    <id>cat1cm0p</id>
+    <uri>https://github.com/Infineon/cat1cm0p</uri>
+    <desc>CAT1A and CAT1C Arm&#174; Cortex&#174;-M0+ prebuilt images enabling flash write services and Bluetooth&#174; Low Energy event handling.</desc>
+    <category>Core</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 beta2 release</num>
+        <commit>release-v1.0.0-Beta2</commit>
+        <desc>1.0.0 beta2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>cmsis</name>
+    <id>cmsis</id>
+    <uri>https://github.com/Infineon/cmsis</uri>
+    <desc>CMSIS for PDL</desc>
+    <category>Core</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>5.8.0 beta2 release</num>
+        <commit>release-v5.8.0-Beta2</commit>
+        <desc>5.8.0 beta2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-pdl-cat1</name>
+    <id>mtb-pdl-cat1</id>
+    <uri>https://github.com/Infineon/mtb-pdl-cat1</uri>
+    <desc>The Peripheral Driver Library (PDL) integrates device header files, startup code, and low-level peripheral drivers into a single package.</desc>
+    <category>Core</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.0.0 beta2 release</num>
+        <commit>release-v3.0.0-Beta2</commit>
+        <desc>3.0.0 beta2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>mtb-hal-cat1</name>
+    <id>mtb-hal-cat1</id>
+    <uri>https://github.com/Infineon/mtb-hal-cat1</uri>
+    <desc>PSoC&#8482; 6 Hardware Abstraction Layer package, provides a set of APIs to initialize, configure, and use the PSoC&#8482; 6 MCU resources using the ModusToolbox&#8482; Hardware Abstraction Layer.</desc>
+    <category>Core</category>
+    <req_capabilities>cat1</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>2.2.0 beta2 release</num>
+        <commit>release-v2.2.0-Beta2</commit>
+        <desc>2.2.0 beta2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>recipe-make-cat1c</name>
+    <id>recipe-make-cat1c</id>
+    <uri>https://github.com/Infineon/recipe-make-cat1c</uri>
+    <desc>XMC7000 Make build recipe provides the make files and scripts for building and programming XMC7000 applications.</desc>
+    <category>Core</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>1.0.0 beta2 release</num>
+        <commit>release-v1.0.0-Beta2</commit>
+        <desc>1.0.0 beta2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware type="device_data" hidden="true">
+    <name>device-db</name>
+    <id>device-db</id>
+    <uri>https://github.com/Infineon/device-db</uri>
+    <desc>Device database provides device information for project-creator, configurators, and other tools.</desc>
+    <category>Core</category>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>4.0.1 beta2 release</num>
+        <commit>release-v4.0.1-Beta2</commit>
+        <desc>4.0.1 beta2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+</middleware>

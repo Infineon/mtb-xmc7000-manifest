@@ -1,0 +1,21 @@
+<boards>
+  <board default_location="local">
+    <id>KIT_XMC72_EVK</id>
+    <category>XMC&#8482; BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_KIT_XMC72_EVK</board_uri>
+    <chips>
+      <mcu>XMC7200D-E272K8384</mcu>
+    </chips>
+    <name>KIT_XMC72_EVK</name>
+    <summary>The KIT_XMC72_EVK, a 272-pin evaluation board is based on the XMC7000 family of devices. XMC7000 MCU is designed for industrial applications. The evaluation board carries a XMC7000D microcontroller, a M.2 interface connector for interfacing radio modules based on AIROC&#8482; Wi-Fi and Bluetooth&#174; combos (currently not supported), SMIF dual header compatible with Digilent Pmod for interfacing HYPERBUS&#8482; memories (currently not supported), and headers compatible with Arduino for interfacing Arduino shields. In addition, the board features an on-board programmer/debugger (KitProg3), a 512-Mbit QSPI NOR flash, CAN FD transceiver, Gigabit Ethernet PHY transceiver with RJ45 connector interface, a micro-B connector for USB device interface, three user LEDs, one potentiometer, and two push buttons. The board supports operating voltages from 3.3 V to 5.0 V for XMC7000D device.</summary>
+    <prov_capabilities>xmc7000 std_crypto flash_8384k udb arduino ethernet memory_qspi smart_io hal sram_1024k qspi led rtc bsp_gen4 switch nor_flash low_power mcu_gp i2c uart spi memory cat1 multi_core kit_xmc72_evk</prov_capabilities>
+    <description>               &lt;div class="category"&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;               &lt;li&gt;XMC7200D-E272K8384 8MB Flash 272-pin BGA device&lt;/li&gt;                &lt;li&gt;Programming interface (Arm&#174; Standard JTAG, Cortex&#174; Debug + ETM with Arm&#174; ETM Mictor)&lt;/li&gt;               &lt;li&gt;Reset control with manual reset switch and voltage supervision&lt;/li&gt;               &lt;li&gt;Gigabit Ethernet interface&lt;/li&gt;               &lt;li&gt;CAN FD interface&lt;/li&gt;               &lt;li&gt;M.2 interface connector to connect radio modules based on AIROC&#8482; Wi-Fi &amp; Bluetooth&#174; combos (currently not supported)&lt;/li&gt;               &lt;li&gt;512-Mbit external Quad SPI NOR Flash that provides a fast, expandable memory for data and code&lt;/li&gt;               &lt;li&gt;KitProg3 on-board SWD programmer/debugger, USB-UART and USB-I2C bridge functionality&lt;/li&gt;               &lt;li&gt;A micro-B connector for USB device interface&lt;/li&gt;               &lt;li&gt;Selectable input supply voltages of 3.3 V and 5.0 V for the XMC7000D device&lt;/li&gt;               &lt;li&gt;Three user LEDs, two user buttons, and a reset button for the XMC7000D device&lt;/li&gt;               &lt;li&gt;A potentiometer which can be used to simulate analog sensor output&lt;/li&gt;               &lt;li&gt;A mode button and a mode LED for KitProg3&lt;/li&gt;               &lt;/ul&gt;&lt;p/&gt;               &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;               &lt;li&gt;XMC7200 evaluation board&lt;/li&gt;               &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;               &lt;li&gt;12V/3A DC power adapter with additional blades&lt;/li&gt;               &lt;li&gt;Six jumper wires&lt;/li&gt;               &lt;li&gt;Quick start guide&lt;/li&gt;               &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/KIT_XMC72_EVK</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.0.0 beta2 release</num>
+        <commit>release-v1.0.0-Beta2</commit>
+      </version>
+    </versions>
+  </board>
+</boards>

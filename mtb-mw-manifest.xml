@@ -1,0 +1,130 @@
+<middleware>
+  <middleware>
+    <name>retarget-io</name>
+    <id>retarget-io</id>
+    <uri>https://github.com/Infineon/retarget-io</uri>
+    <desc>The Retarget IO library provides APIs for transmitting messages to or from the board via standard printf/scanf functions using a UART connection which is generally connected to a host machine.</desc>
+    <category>Peripheral</category>
+    <req_capabilities>mcu_gp hal</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>core-lib</name>
+    <id>core-lib</id>
+    <uri>https://github.com/Infineon/core-lib</uri>
+    <desc>The Core Library provides device agnostic utilities that all middleware can rely on. This includes a generic result type and some common utility functions.</desc>
+    <category>Core</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
+        <desc>1.3.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>abstraction-rtos</name>
+    <id>abstraction-rtos</id>
+    <uri>https://github.com/Infineon/abstraction-rtos</uri>
+    <desc><![CDATA[
+    The RTOS Abstraction Library provides a generic API that allows ModusToolbox&#8482; middleware to be written in an RTOS agnostic manner. It also contains implementations of the Abstraction Layer for FreeRTOS, CMSIS RTOS, and ThreadX.
+    <br><br><b>Note:</b>
+    This library has specific requirements on the underlying RTOS configuration. See the Readme.md file for details.
+    ]]></desc>
+    <category>Utilities</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>1.6.0 beta2 release</num>
+        <commit>release-v1.6.0-Beta2</commit>
+        <desc>1.6.0 beta2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>clib-support</name>
+    <id>clib-support</id>
+    <uri>https://github.com/Infineon/clib-support</uri>
+    <desc><![CDATA[
+    The CLib Support Library provides the necessary hooks to make C library functions such as malloc and free thread safe. This implementation is specific to FreeRTOS.
+    <br><br><b>Note:</b>
+    FREERTOS flags configUSE_MUTEXES, configUSE_RECURSIVE_MUTEXES, and configSUPPORT_STATIC_ALLOCATION must be enabled
+    ]]></desc>
+    <category>Utilities</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+        <desc>Latest 1.X release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+        <desc>1.2.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>freertos</name>
+    <id>freertos</id>
+    <uri>https://github.com/Infineon/freertos</uri>
+    <desc><![CDATA[
+    A FreeRTOS is a small operating system for microcontrollers. A FreeRTOS kernel is distributed as standard C source files
+     with configuration header file.<br>
+    <br><b>License Disclaimer:</b><br>
+    Adding this library will download and add FreeRTOS to your project. It is your responsibility to understand and accept the FreeRTOS license.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/freertos/blob/master/README.md">FreeRTOS kernel README.md</a></li>
+          <li><a href="https://github.com/Infineon/freertos/blob/master/RELEASE.md">FreeRTOS kernel RELEASE.md</a></li>
+          <li><a href="https://www.freertos.org/index.html">FreeRTOS home page</a></li>
+        </ul>
+    ]]></desc>
+    <category>Core</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>10.4.303 release</num>
+        <commit>release-v10.4.303-Beta2</commit>
+        <desc>10.4.303 release</desc>
+      </version>
+    </versions>
+  </middleware>
+  <middleware>
+    <name>emeeprom</name>
+    <id>emeeprom</id>
+    <uri>https://github.com/Infineon/emeeprom</uri>
+    <desc><![CDATA[
+    The Emulated EEPROM middleware emulates an EEPROM device in the PSoC&#8482; & XMC&#8482; 7000 device flash memory.
+     This allows you to store nonvolatile data with support for wear leveling and redundant copy features.<br>
+    <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/Infineon/emeeprom/blob/master/README.md">Em_EEPROM Middleware Library README.md</a></li>
+          <li><a href="https://github.com/Infineon/emeeprom/blob/master/RELEASE.md">Em_EEPROM Middleware Library RELEASE.md</a></li>
+          <li><a href="https://infineon.github.io/emeeprom/em_eeprom_api_reference_manual/html/modules.html">Em_EEPROM Middleware Library API reference guide</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities>mcu_gp</req_capabilities>
+    <versions>
+      <version flow_version="1.0,2.0">
+        <num>2.20.0 beta2 release</num>
+        <commit>release-v2.20.0-Beta2</commit>
+        <desc>2.20.0 beta2 release</desc>
+      </version>
+    </versions>
+  </middleware>
+</middleware>
