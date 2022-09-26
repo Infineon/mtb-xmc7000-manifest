@@ -32,20 +32,6 @@
     </versions>
   </depender>
   <depender>
-    <id>mtb-template-cat1</id>
-    <versions>
-      <version>
-        <commit>release-v1.0.0</commit>
-        <dependees>
-          <dependee>
-            <id>mtb-pdl-cat1</id>
-            <commit>release-v3.0.0-Beta2</commit>
-          </dependee>
-        </dependees>
-      </version>
-    </versions>
-  </depender>
-  <depender>
     <id>freertos</id>
     <versions>
       <version>
