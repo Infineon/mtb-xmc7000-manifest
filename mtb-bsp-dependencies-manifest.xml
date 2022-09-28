@@ -3,7 +3,7 @@
     <id>KIT_XMC72_EVK</id>
     <versions>
       <version>
-        <commit>release-v1.0.0-Beta2</commit>
+        <commit>release-v1.0.0-Beta3</commit>
         <dependees>
           <dependee>
             <id>cat1cm0p</id>

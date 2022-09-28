@@ -13,8 +13,8 @@
     <documentation_url>https://www.infineon.com/KIT_XMC72_EVK</documentation_url>
     <versions>
       <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
-        <num>1.0.0 beta2 release</num>
-        <commit>release-v1.0.0-Beta2</commit>
+        <num>1.0.0 beta3 release</num>
+        <commit>release-v1.0.0-Beta3</commit>
       </version>
     </versions>
   </board>
